@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\bar_code_128.png" />
+    <None Remove="Resources\Images\bar_code_39.png" />
+    <None Remove="Resources\Images\datamatrix_16.png" />
+    <None Remove="Resources\Images\graphics.png" />
+    <None Remove="Resources\Images\picture.png" />
+    <None Remove="Resources\Images\qr_code_16.png" />
+    <None Remove="Resources\Images\text.png" />
+    <None Remove="Resources\Images\text_render.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\bar_code_128.png" />
+    <EmbeddedResource Include="Resources\Images\bar_code_39.png" />
+    <EmbeddedResource Include="Resources\Images\datamatrix_16.png" />
+    <EmbeddedResource Include="Resources\Images\graphics.png" />
+    <EmbeddedResource Include="Resources\Images\picture.png" />
+    <EmbeddedResource Include="Resources\Images\qr_code_16.png" />
+    <EmbeddedResource Include="Resources\Images\text.png" />
+    <EmbeddedResource Include="Resources\Images\text_render.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.csproj" />
+  </ItemGroup>
+
+</Project>
