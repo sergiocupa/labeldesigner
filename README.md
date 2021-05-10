@@ -14,4 +14,3 @@ Some features already implemented:
 - Zoom of the editing area
 
 The layout is saved in JSON format.
-The print layer is abstracted, but currently only supports the ZPL2 format.
