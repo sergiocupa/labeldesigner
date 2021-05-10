@@ -15,4 +15,3 @@ Some features already implemented:
 
 The layout is saved in JSON format.
 The print layer is abstracted, but currently only supports the ZPL2 format.
-This print layer has not been tested, so currently a button on the UI for exporting print content has not yet been made available.
