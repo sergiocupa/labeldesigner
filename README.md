@@ -13,6 +13,7 @@ Some features already implemented:
 - Image
 - Zoom of the editing area
 
+
 The layout is saved in JSON format.
 
 Next features:
