@@ -16,5 +16,5 @@ Some features already implemented:
 The layout is saved in JSON format.
 
 Next features:
-- Zpl generator according to edited layout
+- Zpl generator using the edited layout
 - Bind object property with edited field
