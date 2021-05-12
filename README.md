@@ -12,7 +12,7 @@ Some features already implemented:
 - Datamatrix
 - Image
 - Zoom of the editing area
-- Zpl generator
+- Zpl assembler
 
 The label is saved in a JSON file, abstracted from the printing protocol.
 
