@@ -14,8 +14,8 @@ Some features already implemented:
 - Zoom of the editing area
 - Zpl generator using the edited layout
 
+The label is saved in a JSON file, abstracted from the printing protocol.
 
-The layout is saved in JSON format.
 
 Next features:
 
