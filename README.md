@@ -12,10 +12,11 @@ Some features already implemented:
 - Datamatrix
 - Image
 - Zoom of the editing area
+- Zpl generator using the edited layout
 
 
 The layout is saved in JSON format.
 
 Next features:
-- Zpl generator using the edited layout
+
 - Bind object property with edited field
