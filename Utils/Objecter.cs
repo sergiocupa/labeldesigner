@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 
 
-namespace ATAK.Framework.Utils
+namespace Utils
 {
 
     public class Objecter
